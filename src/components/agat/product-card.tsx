@@ -31,14 +31,6 @@ export function ProductCard({
         />
       </button>
 
-      <button
-        type="button"
-        onClick={() => alternarFavorito(produto.id)}
-        aria-label={favorito ? "Remover dos favoritos" : "Adicionar aos favoritos"}
-        aria-pressed={favorito}
-        className="absolute"
-        style={{ display: "none" }}
-      />
 
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-2">
